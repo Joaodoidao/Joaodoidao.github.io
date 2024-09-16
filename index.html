@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - João Gabriel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left-column, .right-column {
+            width: 48%;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #3366cc;
+            margin-right: auto;
+        }
+
+        .contact-info {
+            text-align: right;
+            font-size: 1rem;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        .contact-info a {
+            color: #3366cc;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .summary {
+            background: #f4f4f4;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: #333;
+            border-bottom: 2px solid #3366cc;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            color: #3366cc;
+        }
+
+        .skills, .tools {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        .work-experience, .education {
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin: 10px 0;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>João Gabriel - Eng. de Software</h1>
+            <div class="contact-info">
+                <p><a href="mailto:joao.baptista@edu.unifil.br">joao.baptista@edu.unifil.br</a></p>
+                <p>+55 43 4002-8922</p>
+                <p><a href="http://siteficticio.com.br">siteficticio.com.br</a></p>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="left-column">
+                <div class="summary">
+                    <h2>Sumário</h2>
+                    <p>Estudante de Engenharia de Software na UniFil, buscando adquirir experiência prática no desenvolvimento de software e sistemas. Apaixonado por aprender novas tecnologias e enfrentar desafios complexos.</p>
+                </div>
+                <div class="skills">
+                    <h2>Habilidades</h2>
+                    <ul>
+                        <li>Comunicativo</li>
+                        <li>Perfeccionista</li>
+                        <li>Colaborativo</li>
+                        <li>Experiência com Clientes</li>
+                        <li>Curioso</li>
+                        <li>Adaptável</li>
+                    </ul>
+                </div>
+                <div class="tools">
+                    <h2>Ferramentas</h2>
+                    <ul>
+                        <li>Java</li>
+                        <li>Figma</li>
+                        <li>Python</li>
+                        <li>HTML</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="right-column">
+                <div class="work-experience">
+                    <h2>Experiência de Trabalho</h2>
+                    <h3>Consultor de Línguas</h3>
+                    <ul>
+                        <li>Produziu projetos de aplicativos visando ajudar a população.</li>
+                        <li>Mais de 4 anos com experiência em ensinar línguas.</li>
+                    </ul>
+
+                    <h3>Professor de Inglês</h3>
+                    <ul>
+                        <li>Ajudou alunos a desenvolver fluência e confiança no uso do idioma.</li>
+                    </ul>
+
+                    <h3>Manutenção de Chopeiras</h3>
+                    <ul>
+                        <li>Trabalhou com manutenção de sistemas de refrigeração para eventos.</li>
+                    </ul>
+                </div>
+
+                <div class="education">
+                    <h2>Educação</h2>
+                    <h3>UniFil</h3>
+                    <p>Março 2023 - Março 2027</p>
+                    <ul>
+                        <li>Ensino Médio completo - Uninorte</li>
+                        <li>Graduação em Inglês Fluente - Rockfeller Brasil</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
